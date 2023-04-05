@@ -12,7 +12,7 @@ int main() {
 
   srand((unsigned)time(NULL));
 
-  for (i = 0; i < 6; i++) { // 로또번호 뽑기
+  for (i = 0; i < 6; i++) {
     num[i] = (rand() % 45) + 1;
     for (j = 0; j < i; j++) {
       if (num[i] == num[j])
