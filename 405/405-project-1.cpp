@@ -7,11 +7,13 @@ using namespace std;
 
 int main() {
 
+  // 게임생성
   vector<int> v;
   for (int i = 1; i <= 31; i++) {
     v.push_back(i);
   }
 
+  // 사용자, 컴퓨터
   int game = 0;
   while (1) {
     int num; // 개수
@@ -31,7 +33,7 @@ int main() {
 
     for (int i = 0; i < num; i++) {
       cout << v.at(i) << endl;
-      if (v.at(i) >= 31) {
+      if (v.at(i) == 31) {
         game % 2 == 0 ? cout << "게임종료 사용자의 승리입니다." << endl
                       : cout << "게임종료 컴퓨터의 승리입니다." << endl;
 
