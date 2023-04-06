@@ -57,19 +57,5 @@ int main() {
     }
   }
 
-  if (count == 6) {
-    cout << "결과 : 1등입니다." << endl;
-  } else if (count == 5) {
-    cout << "결과 : 2등입니다." << endl;
-  } else if (count == 4) {
-    cout << "결과 : 3등입니다." << endl;
-  } else if (count == 3) {
-    cout << "결과 : 4등입니다." << endl;
-  } else if (count == 2) {
-    cout << "결과 : 5등입니다." << endl;
-  } else if (count == 1) {
-    cout << "결과 : 6등입니다." << endl;
-  } else {
-    cout << "결과 : 7등입니다." << endl;
-  }
+  cout << "결과 : " << 7 - count << "등입니다" << endl;
 }
