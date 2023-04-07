@@ -23,8 +23,6 @@ int main() {
   vector<int> v;
   cout << "야구게임" << endl;
 
-  int ball = 0;
-  int strike = 0;
   int count = 0;
 
   cout << num[0] << ":" << num[1] << ":" << num[2] << endl;
