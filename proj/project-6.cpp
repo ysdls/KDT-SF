@@ -79,9 +79,7 @@ int main() {
   cin >> calc;
   oper->numFunc();
   cin >> b;
-  // Operator *result = new Operator(a, b);
 
-  // cout << result;
   result = calculateFunc(a, b, calc);
   while (1) {
     string contn;
