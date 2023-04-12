@@ -9,7 +9,6 @@ int main() {
 
   // 랜덤숫자 생성
   int num[6];
-  // srand((unsigned)time(NULL));
   for (int i = 0; i < 6; i++) {
     num[i] = (rand() % 25) + 1;
     for (int j = 0; j < i; j++) {
